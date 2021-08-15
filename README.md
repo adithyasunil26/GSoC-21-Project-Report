@@ -1,9 +1,9 @@
 # GSoC'21: Final Report
 
 <p align="center">
-  <img width="400" height="400" src="assets/gsoc_logo.png">
+  <img width="200" height="200" src="assets/gsoc_logo.png">
   &emsp;&emsp;&emsp;
-  <img width="400" height="400" src="assets/fossi_logo.png">
+  <img width="200" height="200" src="assets/fossi_logo.png">
 </p>
 
 ## Project: [Porting BaseJump STL to FuseSoC](https://summerofcode.withgoogle.com/projects/#5283541157412864)
