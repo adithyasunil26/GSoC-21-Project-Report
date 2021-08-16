@@ -33,7 +33,7 @@ From the proposed objectives the following have been completed:
 ### 1. Core files have been created for all the BaseJump STL modules
 
 - FuseSoC core files created for all the modules in BaseJump STL with filesets and provider defined.
-- Repository - [adithyasunil26/basejump_stl_cores](adithyasunil26/basejump_stl_cores)
+- Repository - [adithyasunil26/basejump_stl_cores](https://github.com/adithyasunil26/basejump_stl_cores)
 
 Status: Complete. The cores have been tested for missing files and dependancies.
 
@@ -41,7 +41,7 @@ Status: Complete. The cores have been tested for missing files and dependancies.
 
 - Lint targets were added to all the previously created core files and tested.
 - Necessary debugging was done on the original modules and warning ignore tags added for those that were not problematic.
-- Repository - [adithyasunil26/basejump_stl_cores](adithyasunil26/basejump_stl_cores)
+- Repository - [adithyasunil26/basejump_stl_cores](https://github.com/adithyasunil26/basejump_stl_cores)
 
 Status: Complete. The core files have been tested for the lint targets.
 
@@ -57,8 +57,8 @@ Status: Complete. The PR has been merged.
 
 - All the new modified testbenches have been added to the cores.
 - New target `verilator_tb` set up for veriltor testebenches.
-- Repository - [adithyasunil26/basejump_stl_cores](adithyasunil26/basejump_stl_cores)
-- Pull Request to [adithyasunil26/basejump_stl_cores](adithyasunil26/basejump_stl_cores)- [#1 Adding testbenches to cores](https://github.com/adithyasunil26/basejump_stl_cores/pull/1)
+- Repository - [adithyasunil26/basejump_stl_cores](https://github.com/adithyasunil26/basejump_stl_cores)
+- Pull Request to [adithyasunil26/basejump_stl_cores](https://github.com/adithyasunil26/basejump_stl_cores)- [#1 Adding testbenches to cores](https://github.com/adithyasunil26/basejump_stl_cores/pull/1)
 
 Status: Complete. The PR has been merged.
 
@@ -77,12 +77,12 @@ The following are additional objectives which were not part of the initial propo
 - Cretaed FuseSoC generator for BSG Black-box SRAM Generator.
 - Repository - [adithyasunil26/bsg_fakeram_generator](https://github.com/adithyasunil26/bsg_fakeram_generator)
 
-Status: Complete. The generator has been tested.
+Status: Complete. The generator has been tested both individually and as a dependancy in [adithyasunil26/basejump_stl_alu](https://github.com/adithyasunil26/basejump_stl_alu).
 
 ### 7. ALU module created as a proof of concept
 
-- Created an ALU core using cores from BaseJump cores and the `bsg_fakeram` generator as a proof of concept of this project and tested successfully.
-- Pull Request - [#459 Empty testbenches](https://github.com/bespoke-silicon-group/basejump_stl/pull/459)
+- Created an ALU core using cores from the BaseJump cores and the `bsg_fakeram` generator as a proof of concept of this project and tested successfully.
+- Repository - [adithyasunil26/basejump_stl_alu](https://github.com/adithyasunil26/basejump_stl_alu)
 
 Status: Complete. The cores have been tested.
 
@@ -91,20 +91,22 @@ Status: Complete. The cores have been tested.
 - Empty testbenches added to the repository for modules without testbenches.
 - These will be used whenever the tb target is called from FuseSoC.
 - They can be modified at later stages for actual testing.
-- Pull Request - [#459 Empty testbenches](https://github.com/bespoke-silicon-group/basejump_stl/pull/459)
+- Pull Request to [bespoke-silicon-group/basejump_stl](https://github.com/bespoke-silicon-group/basejump_stl) - [#459 Empty testbenches](https://github.com/bespoke-silicon-group/basejump_stl/pull/459)
 
 Status: Complete. Reviewed but pending merge.
 
 ### 9. Yosys targets have been added to all cores
 
 - Yosys targets have been added to all the cores to make it possible to synthesize them for the yosys supported vendors and boards.
-- Pull Request - [#4 Adding yosys targets](https://github.com/adithyasunil26/basejump_stl_cores/pull/4)
-- Pull Request - [#485 Adding BSG_INV_PARAM exception for yosys](https://github.com/bespoke-silicon-group/basejump_stl/pull/485)
+- Pull Request [adithyasunil26/basejump_stl_cores](https://github.com/adithyasunil26/basejump_stl_cores)- [#4 Adding yosys targets](https://github.com/adithyasunil26/basejump_stl_cores/pull/4)
+- Pull Request to [bespoke-silicon-group/basejump_stl](https://github.com/bespoke-silicon-group/basejump_stl)- [#485 Adding BSG_INV_PARAM exception for yosys](https://github.com/bespoke-silicon-group/basejump_stl/pull/485)
+
+Status: Complete. Pending testing, review and merge.
 
 ### 10. Python 3 compatibility for bsg_round_robin_arb generator
 
 - The `bsg_round_robin_arb` generator has been modified to work with Python 3 by using `print_function` from `__future__`.
-- Pull Request - [#454 python3 compatibility for bsg_round_robin_arb](https://github.com/bespoke-silicon-group/basejump_stl/pull/454)
+- Pull Request to [bespoke-silicon-group/basejump_stl](https://github.com/bespoke-silicon-group/basejump_stl) - [#454 python3 compatibility for bsg_round_robin_arb](https://github.com/bespoke-silicon-group/basejump_stl/pull/454)
 
 Status: Complete. Reviewed but pending merge.
 
@@ -139,4 +141,4 @@ You can find more information about the project on my blog post [here](https://m
 
 I would like to thank my mentors Dan Petrisko, Prof. Michael B. Taylor and Olof Kindgren for all their guidance and support. Without them this project would not have progressed as far as it has now. They have always been providing valuable feedbacks and suggestions based on which I shaped my work.
 
-I am also grateful to [The Free and Open Source Silicon Foundation (FOSSi)](https://www.fossi-foundation.org/) community memebers for their support throughtout the project. I also thank Google for giving me this opportunity to work on this project through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
+I am also grateful to [The Free and Open Source Silicon Foundation (FOSSi)](https://www.fossi-foundation.org/) community members for their support throughtout the project. I also thank Google for giving me this opportunity to work on this project through the [Google Summer of Code](https://summerofcode.withgoogle.com/) program.
