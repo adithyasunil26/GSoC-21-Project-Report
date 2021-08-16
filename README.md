@@ -20,9 +20,9 @@ The objective of my project is to port BaseJump STL to FuseSoC so that new proje
 ## Objectives
 1. Create core files for all BaseJump STL modules
 1. Add lint targets for all cores
-Port testbenches to work with verilator
+1. Port testbenches to work with verilator
 1. Add verilator testbench targets for cores with testbenches
-1. Create FuseSoC generator for generated cores like bsg_round_robin_arb
+1. Create FuseSoC generator for generated cores like `bsg_round_robin_arb`
 
 ## Results
 All the proposed objectives have been completed and additional work has been done in order to better the project.
