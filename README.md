@@ -135,7 +135,7 @@ I will continue to work with the organisation to improve the project and add mor
 1. Explore the possibility of adding open-source FPGA and ASIC flows
 
 ## More details
-You can find more information about the project on my blog post [here](https://medium.com/p/44d3954ee6f4). You can find more about the weekly progress of the project on my weekly blogs [here](https://adithyasunil26.medium.com/).
+You can find more information about the project on my blog post [here](https://adithyasunil26.medium.com/gsoc21-the-summer-in-review-44d3954ee6f4). You can find more about the weekly progress of the project on my weekly blogs [here](https://adithyasunil26.medium.com/).
 
 ## Acknowlegements
 
